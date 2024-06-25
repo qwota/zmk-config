@@ -33,11 +33,11 @@
 
         lower_layer {
             bindings = <
-        &trans         &trans    &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans     &trans      &trans  &trans                &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
-&trans  &kp RA(GRAVE)  &trans    &trans            &trans            &trans     &trans      &trans  &kp RA(LEFT_BRACKET)  &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
-        &kp LALT       &kp EXCL  &kp AT            &kp HASH          &kp EQUAL  &kp PLUS    &trans  &kp RA(N9)            &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
-        &kp LWIN       &kp F1    &kp F2            &kp F3            &kp F4     &kp F5      &kp F6  &kp F7                &kp F8            &kp F9                 &kp F10      &kp F11
-                                 &trans            &lt 3 TAB         &trans     &trans      &trans  &trans                &lt 3 DEL         &trans
+        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans     &trans      &trans  &trans                &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
+&trans  &kp RA(GRAVE)  &trans  &trans            &trans            &trans     &trans      &trans  &kp RA(LEFT_BRACKET)  &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
+        &kp LALT       &trans  &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL  &kp PLUS    &trans  &kp RA(N9)            &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
+        &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4     &kp F5      &kp F6  &kp F7                &kp F8            &kp F9                 &kp F10      &kp F11
+                               &trans            &lt 3 TAB         &trans     &trans      &trans  &trans                &lt 3 DEL         &trans
             >;
         };
 
