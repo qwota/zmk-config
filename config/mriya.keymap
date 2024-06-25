@@ -43,11 +43,11 @@
 
         raise_layer {
             bindings = <
-        &trans          &trans           &trans     &trans     &trans     &trans          &trans        &trans       &kp LS(LC(NUMBER_1))  &trans     &trans           &trans
-&trans  &kp KP_NUM      &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &trans
-        &mt LALT EQUAL  &kp KP_MULTIPLY  &kp KP_N4  &kp KP_N5  &kp KP_N6  &kp KP_PLUS     &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
-        &trans          &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT      &kp C_VOL_DN  &kp PAGE_UP  &trans                &kp PG_DN  &kp PAUSE_BREAK  &trans
-                                         &trans     &trans     &trans     &lt 3 RET       &lt 3 ESC     &trans       &trans                &trans
+        &trans    &trans        &kp LC(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LC(RIGHT_BRACKET)  &kp LA(LS(V))    &trans        &trans       &kp LS(LC(NUMBER_1))  &trans     &trans           &trans
+&trans  &trans    &trans        &kp LEFT_BRACKET      &kp UP_ARROW      &kp RIGHT_BRACKET      &kp LA(LS(H))    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &trans
+        &kp LALT  &kp LS(LEFT)  &kp LEFT              &kp DOWN          &kp RIGHT              &kp LS(RIGHT)    &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
+        &trans    &trans        &trans                &kp LS(DOWN)      &trans                 &trans           &kp C_VOL_DN  &kp PAGE_UP  &trans                &kp PG_DN  &kp PAUSE_BREAK  &trans
+                                &trans                &trans            &trans                 &lt 3 RET        &lt 3 ESC     &trans       &trans                &trans
             >;
         };
 
