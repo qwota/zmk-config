@@ -46,7 +46,7 @@
         &trans    &none         &kp LC(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LC(RIGHT_BRACKET)  &kp LA(LS(V))    &none         &none        &kp LS(LC(NUMBER_1))  &none      &none            &none
 &trans  &trans    &none         &kp LEFT_BRACKET      &kp UP_ARROW      &kp RIGHT_BRACKET      &kp LA(LS(H))    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &none
         &kp LALT  &kp LS(LEFT)  &kp LEFT              &kp DOWN          &kp RIGHT              &kp LS(RIGHT)    &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
-        &trans    &none         &none                 &kp LS(DOWN)      &none                  &none            &kp C_VOL_DN  &kp PAGE_UP  &none                 &kp PG_DN  &kp PAUSE_BREAK  &trans
+        &trans    &none         &none                 &kp LS(DOWN)      &kp LS(N0)             &none            &kp C_VOL_DN  &kp PAGE_UP  &none                 &kp PG_DN  &kp PAUSE_BREAK  &trans
                                 &trans                &trans            &trans                 &lt 3 RET        &lt 3 ESC     &trans       &trans                &trans
             >;
         };
