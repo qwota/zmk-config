@@ -86,7 +86,7 @@
        &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
 &none  &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader  &none
        &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-       &sys_reset   &none         &none         &none         &to 6         &to 0           &tog 0        &tog 6        &none         &none         &none         &sys_reset
+       &sys_reset   &none         &none         &none         &to 3         &to 0           &tog 0        &tog 3        &none         &none         &none         &sys_reset
                                   &none         &trans        &none         &trans          &trans        &none         &trans        &none
             >;
         };
