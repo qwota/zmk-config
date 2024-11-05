@@ -63,17 +63,17 @@
 
         mac_lower {
             bindings = <
-        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(LS(M))  &kp RA(LS(X))    &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
-&trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans         &kp LC(LS(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
-        &kp LALT       &trans  &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL      &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
-        &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4         &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
-                               &trans            &lt 6 TAB         &trans         &trans           &trans                 &trans                    &lt 6 DEL         &trans
+        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans     &trans           &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
+&trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans     &kp LS(LG(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
+        &kp LALT       &trans  &kp LS(LG(Z))     &kp LG(Z)         &kp EQUAL  &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
+        &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4     &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
+                               &trans            &lt 6 TAB         &trans     &trans           &trans                 &trans                    &lt 6 DEL         &trans
             >;
         };
 
         mac_raise {
             bindings = <
-        &trans    &none         &kp LC(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LC(RIGHT_BRACKET)  &kp LA(LS(V))    &none         &none        &kp LS(LC(NUMBER_1))  &none      &none            &none
+        &trans    &none         &kp LG(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LG(RIGHT_BRACKET)  &kp LA(LS(V))    &none         &none        &kp LS(LG(NUMBER_1))  &none      &none            &none
 &trans  &trans    &none         &kp LEFT_BRACKET      &kp UP_ARROW      &kp RIGHT_BRACKET      &kp LA(LS(H))    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &kp C_SLEEP
         &kp LALT  &kp LS(LEFT)  &kp LEFT              &kp DOWN          &kp RIGHT              &kp LS(RIGHT)    &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
         &trans    &none         &none                 &kp LS(DOWN)      &kp LS(N0)             &none            &kp C_VOL_DN  &kp PAGE_UP  &none                 &kp PG_DN  &kp PAUSE_BREAK  &trans
