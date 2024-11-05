@@ -21,7 +21,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        win_base {
             bindings = <
           &kp ESC       &kp N1  &kp N2     &kp N3     &kp N4                &kp N5       &kp N6     &kp N7          &kp N8     &kp N9     &kp N0    &kp MINUS
 &kp CAPS  &kp GRAVE     &kp Q   &kp W      &kp E      &kp R                 &kp T        &kp Y      &kp U           &kp I      &kp O      &kp P     &kp LBKT       &kp RBKT
@@ -31,33 +31,23 @@
             >;
         };
 
-        lower_layer {
+        win_lower {
             bindings = <
         &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(LS(M))  &kp RA(LS(X))    &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
 &trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans         &kp LC(LS(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
         &kp LALT       &trans  &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL      &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
         &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4         &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
-                               &trans            &lt 3 TAB         &trans         &trans           &trans                 &trans                    &lt 3 DEL         &trans
+                               &trans            &lt 6 TAB         &trans         &trans           &trans                 &trans                    &lt 6 DEL         &trans
             >;
         };
 
-        raise_layer {
+        win_raise {
             bindings = <
         &trans    &none         &kp LC(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LC(RIGHT_BRACKET)  &kp LA(LS(V))    &none         &none        &kp LS(LC(NUMBER_1))  &none      &none            &none
 &trans  &trans    &none         &kp LEFT_BRACKET      &kp UP_ARROW      &kp RIGHT_BRACKET      &kp LA(LS(H))    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &kp C_SLEEP
         &kp LALT  &kp LS(LEFT)  &kp LEFT              &kp DOWN          &kp RIGHT              &kp LS(RIGHT)    &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
         &trans    &none         &none                 &kp LS(DOWN)      &kp LS(N0)             &none            &kp C_VOL_DN  &kp PAGE_UP  &none                 &kp PG_DN  &kp PAUSE_BREAK  &trans
-                                &trans                &trans            &trans                 &lt 3 RET        &lt 3 ESC     &trans       &trans                &trans
-            >;
-        };
-
-        adjust_layer {
-            bindings = <
-       &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
-&none  &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader  &none
-       &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-       &sys_reset   &none         &none         &none         &to 4         &to 0           &tog 0        &tog 4        &none         &none         &none         &sys_reset
-                                  &none         &trans        &none         &trans          &trans        &none         &trans        &none
+                                &trans                &trans            &trans                 &lt 6 RET        &lt 6 ESC     &trans       &trans                &trans
             >;
         };
 
@@ -67,7 +57,37 @@
 &kp CAPS  &kp GRAVE  &kp Q   &kp W         &kp E      &kp R                 &kp T        &kp Y      &kp U           &kp I      &kp O          &kp P     &kp LBKT       &kp RBKT
           &kp LALT   &kp A   &kp S         &kp D      &kp F                 &kp G        &kp H      &kp J           &kp K      &kp L          &kp SEMI  &mt RALT SQT
           &kp LCTRL  &kp Z   &kp X         &kp C      &kp V                 &kp B        &kp N      &kp M           &kp COMMA  &kp DOT        &kp FSLH  &kp KP_DIVIDE
-                             &kp LEFT_WIN  &lt 2 TAB  &mt LEFT_SHIFT SPACE  &lt 1 RET    &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL  &kp RIGHT_WIN
+                             &kp LEFT_WIN  &lt 5 TAB  &mt LEFT_SHIFT SPACE  &lt 4 RET    &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL  &kp RIGHT_WIN
+            >;
+        };
+
+        mac_lower {
+            bindings = <
+        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(LS(M))  &kp RA(LS(X))    &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
+&trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans         &kp LC(LS(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
+        &kp LALT       &trans  &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL      &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
+        &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4         &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
+                               &trans            &lt 6 TAB         &trans         &trans           &trans                 &trans                    &lt 6 DEL         &trans
+            >;
+        };
+
+        mac_raise {
+            bindings = <
+        &trans    &none         &kp LC(LEFT_BRACKET)  &kp LS(UP_ARROW)  &kp LC(RIGHT_BRACKET)  &kp LA(LS(V))    &none         &none        &kp LS(LC(NUMBER_1))  &none      &none            &none
+&trans  &trans    &none         &kp LEFT_BRACKET      &kp UP_ARROW      &kp RIGHT_BRACKET      &kp LA(LS(H))    &kp C_VOL_UP  &kp HOME     &kp UP                &kp END    &kp SLCK         &kp CAPS         &kp C_SLEEP
+        &kp LALT  &kp LS(LEFT)  &kp LEFT              &kp DOWN          &kp RIGHT              &kp LS(RIGHT)    &kp C_MUTE    &kp LEFT     &kp DOWN              &kp RIGHT  &kp K_APP        &mt RALT INSERT
+        &trans    &none         &none                 &kp LS(DOWN)      &kp LS(N0)             &none            &kp C_VOL_DN  &kp PAGE_UP  &none                 &kp PG_DN  &kp PAUSE_BREAK  &trans
+                                &trans                &trans            &trans                 &lt 6 RET        &lt 6 ESC     &trans       &trans                &trans
+            >;
+        };
+
+        switch {
+            bindings = <
+       &none        &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &none
+&none  &bootloader  &none         &none         &none         &none         &none           &none         &none         &none         &none         &none         &bootloader  &none
+       &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
+       &sys_reset   &none         &none         &none         &to 6         &to 0           &tog 0        &tog 6        &none         &none         &none         &sys_reset
+                                  &none         &trans        &none         &trans          &trans        &none         &trans        &none
             >;
         };
     };
