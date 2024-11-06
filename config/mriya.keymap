@@ -45,6 +45,8 @@
                 <&kp LEFT_ALT>;
 
             label = "M_DASH";
+            wait-ms = <10>;
+            tap-ms = <15>;
         };
 
         win_lang_1: win_lang_switch {
