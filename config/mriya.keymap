@@ -38,7 +38,7 @@
         lang_win: lang_win {
             compatible = "zmk,behavior-mod-morph";
             label = "LANG_WIN";
-            bindings = <&kp LC(LS(N1))>, <&kp LS(LC(N2))>;
+            bindings = <&kp LS(LA(N1))>, <&kp LS(LA(N2))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
