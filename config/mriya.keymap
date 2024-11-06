@@ -38,7 +38,7 @@
         lang_win: lang_win {
             compatible = "zmk,behavior-mod-morph";
             label = "LANG_WIN";
-            bindings = <&kp LS(LA(N1))>, <&kp LS(LA(N2))>;
+            bindings = <&kp LS(LA(NUMBER_2))>, <&kp LS(LA(NUMBER_1))>;
 
             #binding-cells = <0>;
             mods = <(MOD_LSFT)>;
@@ -60,11 +60,11 @@
 
         win_lower {
             bindings = <
-        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(LS(M))  &kp RA(LS(X))    &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
-&trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans         &kp LC(LS(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
-        &kp LALT       &trans  &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL      &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
-        &kp LWIN       &kp F1  &kp F2            &kp F3            &kp F4         &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
-                               &trans            &lt 6 TAB         &trans         &trans           &trans                 &trans                    &lt 6 DEL         &trans
+        &kp LANGUAGE_1  &kp INTERNATIONAL_1  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &kp RA(LS(M))  &kp RA(LS(X))    &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(N8)        &kp RA(COMMA)          &kp RA(DOT)  &kp RA(MINUS)
+&trans  &kp RA(GRAVE)   &trans               &kp RA(W)         &trans            &trans         &kp LC(LS(T))    &kp BACKSLASH          &kp RA(LEFT_BRACKET)      &kp RA(NUMBER_6)  &kp RA(RIGHT_BRACKET)  &trans       &trans         &kp F12
+        &kp LALT        &trans               &kp LC(LS(Z))     &kp LC(Z)         &kp EQUAL      &kp PLUS         &kp PIPE               &kp RA(N9)                &kp RA(V)         &kp RA(N0)             &trans       &kp RALT
+        &kp LWIN        &kp F1               &kp F2            &kp F3            &kp F4         &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9                 &kp F10      &kp F11
+                                             &trans            &lt 6 TAB         &trans         &trans           &trans                 &trans                    &lt 6 DEL         &trans
             >;
         };
 
