@@ -49,7 +49,7 @@
             tap-ms = <5>;
         };
 
-        win_lang_1: win_lang_switch {
+        win_lang_1: win_lang_1 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -60,7 +60,7 @@
                 <&macro_release>,
                 <&kp LEFT_ALT &kp LEFT_SHIFT>;
 
-            label = "WIN_LANG_SWITCH";
+            label = "WIN_LANG_1";
         };
 
         win_lang_2: win_lang_2 {
@@ -85,17 +85,17 @@
             bindings = <&win_lang_2>, <&win_lang_1>;
 
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            mods = <(MOD_LSFT|MOD_RSFT|MOD_LALT|MOD_LCTL)>;
         };
     };
 
     combos {
         compatible = "zmk,combos";
 
-        win_lang_switch {
-            bindings = <&kp C>;
+        combo_win_lang1 {
+            bindings = <&win_lang_1>;
             key-positions = <52 12>;
-            layers = <0>;
+            timeout-ms = <200>;
         };
     };
 
