@@ -95,6 +95,7 @@
         win_lang_switch {
             bindings = <&win_lang_1>;
             key-positions = <52 12>;
+            layers = <0>;
         };
     };
 
@@ -143,7 +144,7 @@
 
         mac_lower {
             bindings = <
-        &trans         &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans     &kp RA(H)        &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(LS(H))     &kp RA(PLUS)   &kp RA(EQUAL)  &kp RA(LS(MINUS))
+        &m_dash        &trans  &kp RA(NUMBER_2)  &kp RA(NUMBER_3)  &trans     &kp RA(H)        &kp RA(LS(LESS_THAN))  &kp RA(LS(GREATER_THAN))  &kp RA(LS(H))     &kp RA(PLUS)   &kp RA(EQUAL)  &kp RA(LS(MINUS))
 &trans  &kp RA(GRAVE)  &trans  &kp RA(W)         &trans            &trans     &kp LS(LG(T))    &kp BACKSLASH          &kp RA(GRAVE)             &kp RA(NUMBER_6)  &kp RA(TILDE)  &trans         &trans             &kp F12
         &kp LALT       &trans  &kp LS(LG(Z))     &kp LG(Z)         &kp EQUAL  &kp PLUS         &kp RA(LS(BACKSLASH))  &kp RA(N9)                &kp RA(V)         &kp RA(N0)     &trans         &kp RALT
         &kp LCTRL      &kp F1  &kp F2            &kp F3            &kp F4     &kp F5           &kp F6                 &kp F7                    &kp F8            &kp F9         &kp F10        &kp F11
