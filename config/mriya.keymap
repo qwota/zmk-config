@@ -17,6 +17,8 @@
 
 &mt { quick_tap_ms = <200>; };
 
+&sk { quick-release; };
+
 / {
     macros {
         mac: mac {
