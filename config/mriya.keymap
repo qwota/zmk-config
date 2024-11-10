@@ -288,19 +288,19 @@
 
         win_base_ru {
             bindings = <
-           &kp ESC       &kp N1  &kp N2  &kp N3     &kp N4                &kp N5           &kp N6         &kp N7          &kp N8     &kp N9   &kp N0           &kp RA(H)
-&lang_win  &kp GRAVE     &kp Q   &kp W   &kp E      &kp R                 &kp T            &kp Y          &kp U           &kp I      &kp O    &kp P            &kp LBKT       &kp RBKT
-           &kp LALT      &kp A   &kp S   &kp D      &Left_HRM 2 F         &kp G            &kp H          &Right_HRM 3 J  &kp K      &kp L    &kp SEMI         &mt RALT SQT
-           &kp LEFT_WIN  &kp Z   &kp X   &kp C      &kp V                 &kp B            &kp N          &kp M           &kp COMMA  &kp DOT  &win_quest_excl  &kp KP_DIVIDE
-                                 &mo 4   &lt 5 TAB  &mt LEFT_SHIFT SPACE  &mt LCTRL RET    &mt RCTRL ESC  &mt RSHFT BSPC  &lt 5 DEL  &mo 4
+           &kp ESC       &kp NUMBER_6  &kp NUMBER_7  &kp N8     &kp N9                &kp NUMBER_0     &kp NUMBER_1   &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp N5           &kp RA(H)
+&lang_win  &kp GRAVE     &kp Q         &kp W         &kp E      &kp R                 &kp T            &kp Y          &kp U           &kp I         &kp O         &kp P            &kp LBKT                 &kp RBKT
+           &kp LALT      &kp A         &kp S         &kp D      &Left_HRM 2 F         &kp G            &kp H          &Right_HRM 3 J  &kp K         &kp L         &kp SEMI         &mt RALT SQT
+           &kp LEFT_WIN  &kp Z         &kp X         &kp C      &kp V                 &kp B            &kp N          &kp M           &kp COMMA     &kp DOT       &win_quest_excl  &mt RIGHT_WIN KP_DIVIDE
+                                       &mo 4         &lt 5 TAB  &mt LEFT_SHIFT SPACE  &mt LCTRL RET    &mt RCTRL ESC  &mt RSHFT BSPC  &lt 5 DEL     &mo 4
             >;
         };
 
         win_en {
             bindings = <
         &trans         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans           &trans   &kp DOLLAR
-&trans  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans           &trans   &kp UNDERSCORE     &kp AMPERSAND
-        &trans         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans           &kp SQT  &kp DOUBLE_QUOTES
+&trans  &kp BACKSLASH  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans           &trans   &kp UNDERSCORE               &kp AMPERSAND
+        &trans         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans           &kp SQT  &mt RIGHT_ALT DOUBLE_QUOTES
         &trans         &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans   &trans
                                &trans  &trans  &trans  &trans    &trans  &trans  &trans          &trans
             >;
