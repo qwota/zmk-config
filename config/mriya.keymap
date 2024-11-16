@@ -99,14 +99,7 @@
         win_dot: win_dot {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_tap>,
-                <&kp KP_NUMBER_4 &kp KP_NUMBER_6>,
-                <&macro_release>,
-                <&kp LEFT_ALT>;
-
+            bindings = <&win_compose &u_dot &kp ENTER>;
             label = "WIN_DOT";
             wait-ms = <2>;
             tap-ms = <5>;
@@ -238,6 +231,33 @@
             #binding-cells = <0>;
             bindings = <&kp MINUS &kp SPACE &kp RA(LEFT_BRACKET) &kp SPACE &kp RA(RIGHT_BRACKET) &kp SPACE>;
             label = "WIN_MD_TASK";
+            wait-ms = <2>;
+            tap-ms = <5>;
+        };
+
+        u_dot: u_dot {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp N0 &kp N2 &kp E>;
+            label = "U_DOT";
+            wait-ms = <2>;
+            tap-ms = <5>;
+        };
+
+        u_comma: u_comma {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp N0 &kp N2 &kp C>;
+            label = "U_COMMA";
+            wait-ms = <2>;
+            tap-ms = <5>;
+        };
+
+        win_compose: win_compose {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RIGHT_ALT &kp U>;
+            label = "WIN_COMPOSE";
             wait-ms = <2>;
             tap-ms = <5>;
         };
