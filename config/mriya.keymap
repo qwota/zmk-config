@@ -451,11 +451,11 @@
 
         symbol_left {
             bindings = <
-        &trans         &kp RA(EQUAL)      &kp RA(J)          &kp RA(L)      &kp RA(N)          &kp PERCENT              &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp BACKSLASH  &kp RA(A)          &kp AT_SIGN        &kp HASH       &mg_comma          &kp RA(F)                &trans  &trans  &trans  &trans  &trans  &trans  &trans
-        &trans         &kp PLUS           &kp EQUAL          &kp MINUS      &kp RA(NUMBER_6)   &kp RA(LS(SEMICOLON))    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans         &kp LS(RA(EQUAL))  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(LC(GRAVE))  &kp RA(LS(LC(GRAVE)))    &trans  &trans  &trans  &trans  &trans  &trans
-                                          &trans             &trans         &trans             &trans                   &trans  &trans  &trans  &trans
+        &trans         &kp RA(EQUAL)      &kp RA(J)          &kp RA(L)      &kp RA(N)         &kp PERCENT              &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp BACKSLASH  &kp RA(A)          &kp AT_SIGN        &kp HASH       &mg_comma         &kp RA(F)                &trans  &trans  &trans  &trans  &trans  &trans  &trans
+        &trans         &kp PLUS           &kp EQUAL          &kp MINUS      &kp RA(NUMBER_6)  &kp RA(LS(SEMICOLON))    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans         &kp LS(RA(EQUAL))  &kp RA(LS(MINUS))  &kp RA(MINUS)  &kp RA(GRAVE)     &kp RA(LS(GRAVE))        &trans  &trans  &trans  &trans  &trans  &trans
+                                          &trans             &trans         &trans            &trans                   &trans  &trans  &trans  &trans
             >;
         };
 
